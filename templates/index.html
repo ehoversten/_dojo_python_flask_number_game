@@ -30,10 +30,9 @@
               </form>
             {% else: %}
               <h4>Take a Guess!</h4>
-            {%endif%}
+            {% endif %}
           </div>
         </div>
-
 
         <div class="row">
           <div class="form-group">
@@ -43,12 +42,6 @@
               <button class="btn btn-primary" type="submit" name="sub_btn">Guess</button>
             </form>
           </div>
-        <div class="answer">
-
-          <h3>{{ session['randNum'] }}</h3>
-
-          <h3>{{ guess }}</h3>
-        </div>
 
         </div>
 

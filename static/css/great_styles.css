@@ -32,7 +32,11 @@
 .content {
   height: 250px;
   width: 250px;
-  background-color: cyan;
-  display: flex;
-  justify-content: center;
+  background-color: lightblue;
+  text-align: center;
+  padding: 15px;
+}
+
+button {
+  margin-top: 20px;
 }
